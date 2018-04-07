@@ -1,0 +1,49 @@
+body {
+  font-size: 12px;
+  font-family: Arial;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.App {
+  &-left {
+    width: 20%;
+    float: left;
+    padding: 5px;
+  }
+  &-right {
+    width: 100%;
+    margin-left: 20%;
+    padding: 5px;
+  }
+}
+
+.list-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  > li {
+    border: 1px solid #c0c0c0;
+    padding: 5px 5px 5px 20px;
+    + li {
+      margin-top: -1px;
+    }
+    a {
+      display: block;
+    }
+    &:hover, .active {
+      position: relative;
+      z-index: 99;
+      border-color: #2a9fcd;
+      background-color: #E7EBFF;
+      cursor: pointer;
+      a {
+        font-weight: bold;
+      }
+    }
+  }
+}

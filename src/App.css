@@ -1,3 +1,39 @@
+body {
+  font-size: 12px;
+  font-family: Arial;
+  color: black; }
 
+a {
+  text-decoration: none;
+  color: #000; }
+
+.App-left {
+  width: 20%;
+  float: left;
+  padding: 5px; }
+.App-right {
+  width: 100%;
+  margin-left: 20%;
+  padding: 5px; }
+
+.list-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .list-menu > li {
+    border: 1px solid #c0c0c0;
+    padding: 5px 5px 5px 20px; }
+    .list-menu > li + li {
+      margin-top: -1px; }
+    .list-menu > li a {
+      display: block; }
+    .list-menu > li:hover, .list-menu > li .active {
+      position: relative;
+      z-index: 99;
+      border-color: #2a9fcd;
+      background-color: #E7EBFF;
+      cursor: pointer; }
+      .list-menu > li:hover a, .list-menu > li .active a {
+        font-weight: bold; }
 
 /*# sourceMappingURL=App.css.map */
