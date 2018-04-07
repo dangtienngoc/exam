@@ -7,13 +7,18 @@ a {
   text-decoration: none;
   color: #000; }
 
+.heading {
+  font-size: 16px;
+  padding: 4px 0;
+  display: block;
+  border-bottom: 1px solid #000; }
+
 .App-left {
   width: 20%;
   float: left;
   padding: 5px; }
 .App-right {
-  width: 100%;
-  margin-left: 20%;
+  margin-left: calc(20% + 5px);
   padding: 5px; }
 
 .list-menu {
