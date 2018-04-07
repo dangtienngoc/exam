@@ -1,0 +1,33 @@
+.form {
+  clear: both;
+  > div {
+    width: 25%;
+    padding: 10px;
+    float: left;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+
+.weather-icon {
+  float: left;
+  margin-right: 50px;
+}
+
+.cloud {
+  background-position: -68px -381px; width: 70px; height: 50px;
+}
+
+.rain {
+  background-position: -285px -381px; width: 70px; height: 50px;
+}
+
+.clear {
+  background-position: -70px -21px; width: 70px; height: 50px;
+}
+
+.other {
+  background-position: -140px -525px; width: 70px; height: 50px;
+}

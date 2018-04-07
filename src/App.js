@@ -17,8 +17,8 @@ class App extends Component {
         <div className="App">
           <div className="App-left">
             <ul className="list-menu">
-              <li><Link to="/weather">Data Analysis</Link></li>
-              <li><Link to="/analysis">Today's weather</Link></li>
+              <li><Link to="/analysis">Data Analysis</Link></li>
+              <li><Link to="/weather">Today's weather</Link></li>
             </ul>
           </div>
           <div className="App-right">

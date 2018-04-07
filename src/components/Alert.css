@@ -1,0 +1,10 @@
+.alert.error {
+  border: 1px solid darkred;
+  padding: 5px 10px;
+  background-color: #f07168;
+  color: #000000;
+  margin: 10px 0;
+  display: inline-block;
+  min-width: 200px; }
+
+/*# sourceMappingURL=Alert.css.map */
