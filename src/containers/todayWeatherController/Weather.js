@@ -23,7 +23,7 @@ class Weather extends Component {
   }
   onSearch() {
     const { city, country } = this.state;
-    const query = `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&appid=${API_KEY}`;
+    const query = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&appid=${API_KEY}`;
     this.setState({
       loading: true,
       error: {},
